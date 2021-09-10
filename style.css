@@ -1,0 +1,22 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid__row__square, .grid__row__square--cousin {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.grid__row__square--cousin {
+    background-color: green;
+}
